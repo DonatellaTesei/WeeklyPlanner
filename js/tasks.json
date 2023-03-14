@@ -1,0 +1,101 @@
+let tasks = `[{
+    "taskName": "Sport",
+    "description": "Pilates class",
+    "location": "T&T, <br> Färbergasse 6, 1010 Vienna",
+    "image": "./images/pilates.jpg",
+    "importance": 0,
+    "deadline": "19.02.2023",
+    "time": "10:45 am",
+    "duration": "1 hour",
+    "link": "https://www.trainandtone.at/"
+}, {
+    "taskName": "Beauty",
+    "description": "Manicure",
+    "location": "Koliya, <br> Fichtegasse 5/2a, 1010 Vienna",
+    "image": "./images/manicure.jpg",
+    "importance": 0,
+    "deadline": "18.02.2023",
+    "time": "09:30 am",
+    "duration": "2 hours",
+    "link": "https://www.koliya.at/"
+}, {
+    "taskName": "Shopping",
+    "description": "Grocery Shopping",
+    "location": "Billa Plus, <br> Wexstraße 24, 1200 Wien",
+    "image": "./images/grocery.jpg",
+    "importance": 0,
+    "deadline": "16.02.2023",
+    "time": "afternoon",
+    "duration": "1 hour",
+    "link": "https://www.billa.at/"
+},{
+    "taskName": "Dry-cleaner",
+    "description": "Collect clothes",
+    "location": "Hammerl, <br> Taborstraße 24/4 1020 Vienna",
+    "image": "./images/laundry.jpg",
+    "importance": 0,
+    "deadline": "25.02.2023",
+    "time": "anytime",
+    "duration": "30 min",
+    "link": "https://www.hammerl-textilcare.com/"
+},{
+    "taskName": "Friends",
+    "description": "Dinner w/ Steffi",
+    "location": "Paco, <br> Nussdorferstr. 7, 1090 Vienna",
+    "image": "./images/dinner.jpg",
+    "importance": 0,
+    "deadline": "24.02.2023",
+    "time": "08:00 pm",
+    "duration": "2 hours",
+    "link": "https://www.pacorestaurant.at/"
+}, {
+    "taskName": "Sport",
+    "description": "Skydiving w/ Tamara",
+    "location": "IPPC, <br> Endresstrasse 79/4, 1230 Vienna",
+    "image": "./images/skydiving.png",
+    "importance": 0,
+    "deadline": "14.02.2023",
+    "time": "10:00 am",
+    "duration": "5 hours",
+    "link": "http://www.fallschirmspringen.at/"
+}, {
+    "taskName": "Movie night",
+    "description": "Watch Babylon",
+    "location": "Artis Kino, <br> Schultergasse 5, 1010 Vienna",
+    "image": "./images/movie.jpg",
+    "importance": 0,
+    "deadline": "23.02.2023",
+    "time": "07:30 pm",
+    "duration": "4 hours",
+    "link": "https://www.cineplexx.at/center/artis-international/"
+},{
+    "taskName": "Friends",
+    "description": "Sunday Brunch w/ BB",
+    "location": "Turnhalle, <br> Herklotzgasse 21, Vienna",
+    "image": "./images/brunch.jpg",
+    "importance": 0,
+    "deadline": "26.02.2023",
+    "time": "11:30 am",
+    "duration": "2 hours",
+    "link": "https://www.brick-15.at/"
+}, {  
+    "taskName": "Book Club",
+    "description": "Book: 'Love, Pamela'",
+    "location": "Hartliebs, <br> Porzellangasse 36, 1090 Vienna ",
+    "image": "./images/book.jpg",
+    "importance": 0,
+    "deadline": "25.02.2023",
+    "time": "06:30 pm",
+    "duration": "1 hour",
+    "link": "https://hartliebs.at/"
+},{
+    "taskName": "Holidays",
+    "description": "Trip to Maldives",
+    "location": "Innahura Resort, <br> Lhaviyani Atoll, 75006, Maldives",
+    "image": "./images/maldives.jpg",
+    "importance": 0,
+    "deadline": "25.03.2023",
+    "time": "06:30 am",
+    "duration": "1 week",
+    "link": "https://www.innahura.com/"
+}]`
