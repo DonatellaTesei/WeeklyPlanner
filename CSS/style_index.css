@@ -57,7 +57,7 @@ form {
   text-align: center;
 }
 
-h1 {
+#page-title {
   font-size: 2.5em;
   font-weight: bold;
   margin-left: 2.5rem;
@@ -101,4 +101,29 @@ h1 {
 
 #scrollToTop:hover {
   background-color: rgb(188, 143, 143) !important;
+}
+
+@media screen and (max-width: 576px) {
+  #sort {
+    margin-top: 0.2rem;
+    margin-right: 2rem;
+  }
+  #page-title {
+    margin-left: 3rem;
+    margin-bottom: 2rem;
+  }
+  .hero {
+    width: 100vw;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../images/heroImg.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin-bottom: 3rem;
+  }
 }/*# sourceMappingURL=style_index.css.map */
